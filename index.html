@@ -13,58 +13,107 @@
 </head>
 <body>
     <header>
-        <h1 id="inicio">Curriculo vitae</h1>
-        <h2>Ivan Vigo</h2>
-        <img alt="foto 4x4 de Ivan" src="imagenes/foto4x4.jpg">
+        <div class="titulo_principal">
+            <h1 id="inicio">Curriculo vitae</h1>
+            <h2>Ivan Vigo</h2>
+        </div>
+        <img id="foto4x4" alt="foto 4x4 de Ivan" src="imagenes/foto4x4.jpg">
     </header>
     <nav class="menu">
-        <ul class="lista">
-          <li><a href="#inicio">Inicio</a></li>
-          <li><a href="#main">Habilidades</a></li>
-          <li><a href="#footer">Contacto</a></li>
-        </ul>
+        <div class="lista">
+          <a class="a-inicio" href="#inicio">Inicio</a>
+          <a class="a-main" href="#main">Habilidades</a>
+          <a class="a-footer" href="#footer">Contacto</a>
+        </div>
     </nav>
 
     <main id="main">
         <h2 id="habilidades">Habilidades </h2>
-        <div class="pascal">
-                <div class="logo"><img alt="logo pascal" src="imagenes/pascal.jpg"></div>
-                <div class="cantidad"><p>* *</p></div>
+        <div id="tecnologias">
+        <div id="pascal">
+                <div class="logo"><img class="logoimagen" alt="logo pascal" src="imagenes/pascal.jpg"></div>
+                <div class="cantidad">
+                    <img class="boton" src="imagenes/bola-negra.jpg">
+                    <img class="boton" src="imagenes/bola-negra.jpg"> 
+                    <img class="boton" src="imagenes/bola-blanca.jpg">
+                    <img class="boton" src="imagenes/bola-blanca.jpg"> 
+                    <img class="boton" src="imagenes/bola-blanca.jpg">
+                </div>
         </div>
-        <div class="c">    
-                <div class="logo"><img alt="logo c" src="imagenes/cicono.jpg"></div>
-                <div class="cantidad"><p>* * * *</p></div>
+        <div id="c">    
+                <div class="logo"><img class="logoimagen" alt="logo c" src="imagenes/cicono.jpg"></div>
+                <div class="cantidad">
+                    <img class="boton" src="imagenes/bola-negra.jpg">
+                    <img class="boton" src="imagenes/bola-negra.jpg"> 
+                    <img class="boton" src="imagenes/bola-negra.jpg">
+                    <img class="boton" src="imagenes/bola-negra.jpg"> 
+                    <img class="boton" src="imagenes/bola-blanca.jpg">
+                </div>
         </div>   
-        <div class="dyango">   
-                <div class="logo"><img alt="logo dyango" src="imagenes/djangoicono.jpg"></div>
-                <div class="cantidad"><p>*</p></div>
-        </div>  <!--   
-                <div>       
-                    <img alt="logo html" src="imagenes/htmlicono.jpg">
-                    <p>* *</p>
-                </div>  
-                <div>
-                    <img alt="logo css" src="imagenes/cssicono-jpg.png">
-                    <p>* *</p>
-                </div> 
-                <div>
-                    <img alt="logo javascrip" src="imagenes/jsicono.jpg">
-                    <p>*</p>
-                </div> -->
-
-        <H2>Desarrollos</H2>
+        <div id="python">   
+            <div class="logo"><img class="logoimagen" alt="logo python" src="imagenes/pythonicono.jpg"></div>
+            <div class="cantidad">
+                <img class="boton" src="imagenes/bola-negra.jpg">
+                <img class="boton" src="imagenes/bola-negra.jpg"> 
+                <img class="boton" src="imagenes/bola-negra.jpg">
+                <img class="boton" src="imagenes/bola-blanca.jpg"> 
+                <img class="boton" src="imagenes/bola-blanca.jpg">
+            </div>
+        </div> 
+        <div id="dyango">   
+            <div class="logo"><img class="logoimagen" alt="logo dyango" src="imagenes/djangoicono.jpg"></div>
+            <div class="cantidad">
+                <img class="boton" src="imagenes/bola-negra.jpg">
+                <img class="boton" src="imagenes/bola-blanca.jpg"> 
+                <img class="boton" src="imagenes/bola-blanca.jpg">
+                <img class="boton" src="imagenes/bola-blanca.jpg"> 
+                <img class="boton" src="imagenes/bola-blanca.jpg">
+            </div>
+        </div> 
+        <div id="html">       
+            <div class="logo" ><img class="logoimagen" alt="logo html" src="imagenes/htmlicono.jpg"></div>
+            <div class="cantidad">
+                <img class="boton" src="imagenes/bola-negra.jpg">
+                <img class="boton" src="imagenes/bola-negra.jpg"> 
+                <img class="boton" src="imagenes/bola-blanca.jpg">
+                <img class="boton" src="imagenes/bola-blanca.jpg"> 
+                <img class="boton" src="imagenes/bola-blanca.jpg">
+            </div>
+        </div>  
+        <div id="css">
+            <div class="logo"> <img class="logoimagen" alt="logo css" src="imagenes/cssicono-jpg.png"></div>
+            <div class="cantidad">
+                <img class="boton" src="imagenes/bola-negra.jpg">
+                <img class="boton" src="imagenes/bola-negra.jpg"> 
+                <img class="boton" src="imagenes/bola-blanca.jpg">
+                <img class="boton" src="imagenes/bola-blanca.jpg"> 
+                <img class="boton" src="imagenes/bola-blanca.jpg">
+            </div>
+        </div> 
+        <div id="js">
+            <div class="logo"> <img class="logoimagen" alt="logo javascrip" src="imagenes/jsicono.jpg"></div>
+            <div class="cantidad">
+                <img class="boton" src="imagenes/bola-negra.jpg">
+                <img class="boton" src="imagenes/bola-blanca.jpg"> 
+                <img class="boton" src="imagenes/bola-blanca.jpg">
+                <img class="boton" src="imagenes/bola-blanca.jpg"> 
+                <img class="boton" src="imagenes/bola-blanca.jpg">
+            </div>
+        </div>
+        </div>
+        <H2 id="desarrollos">Desarrollos</H2>
             <p>Lorem ipsum dolor sit amet. Aut maxime enim in aliquid amet aut molestias galisum. Sed voluptas nihil eos dolores voluptatem est ullam aperiam. Est veritatis architecto et consequatur eveniet ab quia molestiae eos explicabo mollitia et sint molestiae a tenetur nisi. Est necessitatibus voluptas et dolor numquam est doloribus Quis et accusantium tempore non earum omnis ut consectetur cupiditate ut eius voluptas. Sit sapiente facere non obcaecati suscipit in voluptas voluptatum ut voluptatum dolorem?
 
                 Sit quia totam id sequi autem est velit minus a voluptatibus beatae ut omnis reiciendis eos officiis optio! Vel sint praesentium et numquam maxime et omnis reprehenderit vel quam velit? Et assumenda cumque eos inventore repellat et temporibus galisum! Eos inventore sunt aut cupiditate consequuntur vel enim blanditiis eum molestias autem et veniam quia. Hic voluptas omnis est quibusdam facere ut molestiae dolor qui omnis rerum et sequi nobis qui dolore temporibus.
                     
                 Qui placeat accusamus est molestiae odit et quia Quis est odit doloremque et sunt temporibus et neque maxime ut molestiae obcaecati? Quo ratione quia est saepe velit ut iure quis ut recusandae vitae! Eos error voluptas et delectus exercitationem in assumenda unde ad accusantium impedit qui quasi nemo eos neque voluptatum. Est rerum facere qui cupiditate voluptas ea assumenda velit. Et commodi officia id molestias commodi qui velit ipsa sit quasi voluptate non minus suscipit est voluptas voluptatem et vitae repellendus? Et deserunt consequatur qui mollitia quia sit autem laudantium 33 Quis unde. 33 dolores corrupti aut velit saepe qui temporibus fuga et quia totam et quas voluptatem et odit minima.</p>
-        <h2>Educacion</h2>
+        <h2 id="educacion">Educacion</h2>
             <p>Lorem ipsum dolor sit amet. Aut maxime enim in aliquid amet aut molestias galisum. Sed voluptas nihil eos dolores voluptatem est ullam aperiam. Est veritatis architecto et consequatur eveniet ab quia molestiae eos explicabo mollitia et sint molestiae a tenetur nisi. Est necessitatibus voluptas et dolor numquam est doloribus Quis et accusantium tempore non earum omnis ut consectetur cupiditate ut eius voluptas. Sit sapiente facere non obcaecati suscipit in voluptas voluptatum ut voluptatum dolorem?
 
                 Sit quia totam id sequi autem est velit minus a voluptatibus beatae ut omnis reiciendis eos officiis optio! Vel sint praesentium et numquam maxime et omnis reprehenderit vel quam velit? Et assumenda cumque eos inventore repellat et temporibus galisum! Eos inventore sunt aut cupiditate consequuntur vel enim blanditiis eum molestias autem et veniam quia. Hic voluptas omnis est quibusdam facere ut molestiae dolor qui omnis rerum et sequi nobis qui dolore temporibus.
                         
                 Qui placeat accusamus est molestiae odit et quia Quis est odit doloremque et sunt temporibus et neque maxime ut molestiae obcaecati? Quo ratione quia est saepe velit ut iure quis ut recusandae vitae! Eos error voluptas et delectus exercitationem in assumenda unde ad accusantium impedit qui quasi nemo eos neque voluptatum. Est rerum facere qui cupiditate voluptas ea assumenda velit. Et commodi officia id molestias commodi qui velit ipsa sit quasi voluptate non minus suscipit est voluptas voluptatem et vitae repellendus? Et deserunt consequatur qui mollitia quia sit autem laudantium 33 Quis unde. 33 dolores corrupti aut velit saepe qui temporibus fuga et quia totam et quas voluptatem et odit minima.</p>
-        <h2>Esperiencia</h2>
+        <h2 id="esperiencia">Esperiencia</h2>
             <P>Lorem ipsum dolor sit amet. Aut maxime enim in aliquid amet aut molestias galisum. Sed voluptas nihil eos dolores voluptatem est ullam aperiam. Est veritatis architecto et consequatur eveniet ab quia molestiae eos explicabo mollitia et sint molestiae a tenetur nisi. Est necessitatibus voluptas et dolor numquam est doloribus Quis et accusantium tempore non earum omnis ut consectetur cupiditate ut eius voluptas. Sit sapiente facere non obcaecati suscipit in voluptas voluptatum ut voluptatum dolorem?
 
                 Sit quia totam id sequi autem est velit minus a voluptatibus beatae ut omnis reiciendis eos officiis optio! Vel sint praesentium et numquam maxime et omnis reprehenderit vel quam velit? Et assumenda cumque eos inventore repellat et temporibus galisum! Eos inventore sunt aut cupiditate consequuntur vel enim blanditiis eum molestias autem et veniam quia. Hic voluptas omnis est quibusdam facere ut molestiae dolor qui omnis rerum et sequi nobis qui dolore temporibus.                

@@ -1,43 +1,140 @@
-* {box-sizing: border-box; }
+*{box-sizing:border-box; }
 html{width: 100%;
   height: 100%;}
 
-.menu{background-color: rgb(211, 211, 229);color:rgb(209, 13, 13);text-decoration-color: white;
-     border: 2px;
-    border-color: black;
-    border-style: double;
-    padding: 5px;
-    margin: 5px;
-    width: 99%;
-    color:white;
-    text-align: center;}
-.lista{color:yellow;
-    box-sizing:content-box;}
+
+header{width: 100%;
+       height: 120px;}
+.titulo_principal{width: 60%;float: left;}
+#foto4x4{float:left}
+.a-inicio{width: 33%;float:left}
+.a-main{width: 33%;float:left}
+.a-footer{width: 33%;float:left}
+.menu{background-color: rgb(211, 211, 229);color:rgb(209, 13, 13);
+  text-decoration-color: white;
+  border: 2px;
+  border-color: black;
+  border-style: double;
+  padding: 5px;
+  margin: 5px;
+  color:white;
+  height: 38px;
+  text-align: center;}
+#main{
+  border: 2px;
+  border-color: black;
+  border-style: double;
+  padding: 5px;
+  margin: 5px;}
+.header{border: 1px solid red;}
+img{
+  object-fit: cover;}
+.logoimagen{  width:30px;
+  height:30px;
+  float: right;
+  margin:0 10px 0 0;
+  }
+.boton{width: 10px;
+      height: 10px;
+      float: left;
+      margin: 10px 1px 1px 0;}      
+#habilidades{text-align: center;}
+#desarrollos{text-align: center;}
+#educacion{text-align: center;}
+#esperiencia{text-align: center;}
+
+
 @media screen and (max-width:700px){
   #habilidades{background: green;}
+  #desarrollos{background: green;}
+  #educacion{background: green;}
+  #esperiencia{background: green;}
+  .logo{float: left;width: 50%;}
+  .cantidad{float: left;width: 50%;}
+  #pascal{width: 50%;
+        height: 100px;}
+  #c{width: 50%;
+        height: 100px;}   
+  #dyango{width: 50%;
+        height: 100px;}
+  #python{width: 50%;
+        height: 100px;}
+  #html{width: 50%;
+          height: 100px;}   
+  #css{width: 50%;
+          height: 100px;}
+  #js{width: 50%;
+          height: 100px;}
 }
+
+
+
 @media screen and (min-width:700px) and (max-width:1000px){
   #habilidades{background: rgb(128, 0, 0);}
+  #desarrollos{background:red;}
+  #educacion{text-align: center;}
+  #esperiencia{text-align: center;}
+  #tecnologias{height: 300px;}
+  .logo{float: left;width: 50%;}
+  .cantidad{float: left;width: 50%;}
+  #pascal{width: 30%;
+        height: 100px;
+        float: left;}
+  #c{width: 30%;
+        height: 100px;
+        float:left;}   
+  #dyango{width: 30%;
+        height: 100px;
+        float:left}
+  #python{width: 30%;
+        height: 100px;
+        float:left;}
+  #html{width: 30%;
+          height: 100px;
+          float:left;}   
+  #css{width: 30%;
+          height: 100px;
+          float: left;}
+  #js{width: 30%;
+          height: 100px;
+          float: left;}
 }
+
+
 @media screen and (min-width:1000px){
   #habilidades{background: rgb(58, 0, 128);}
+  #desarrollos{text-align: center;}
+  #educacion{text-align: center;}
+  #esperiencia{text-align: center;}
+  #tecnologias{height: 200px;}
+  .logo{float: left;width: 50%;}
+  .cantidad{float: left;width: 50%;}
+  #pascal{width: 25%;
+        height: 100px;
+        float: left;}
+  #c{width: 25%;
+        height: 100px;
+        float:left;}   
+  #dyango{width: 25%;
+        height: 100px;
+        float:left}
+  #python{width: 25%;
+        height: 100px;
+        float:left;}
+  #html{width: 25%;
+          height: 100px;
+          float:left;}   
+  #css{width: 25%;
+          height: 100px;
+          float: left;}
+  #js{width: 25%;
+          height: 100px;
+          float: left;}
 }
 
-#habilidades{width: 30%;
-  height:device-width;}
-  body{width: 100%;}
-#main{width: 100%;
-    border: 1px solid green;}
-.header{border: 1px solid red;}
-.logo{float: left;}
-.cantidad{float: left;}
-img{
-    object-fit: cover;
-    width:50px;
-    height:50px;
-  }
 
-.pascal{width: 100px;
-        height: 62px;
-        border: 1px solid blue;
-        padding: 5px;}
+
+  
+
+
+
